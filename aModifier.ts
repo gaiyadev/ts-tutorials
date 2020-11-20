@@ -1,4 +1,4 @@
-class Student {  
+class Students {  
     public studCode: number;  
     studName: string;  
 
@@ -10,7 +10,7 @@ class Student {
     }
 }  
   
-let stud = new Student();  
+let stud = new Students();  
 stud.studCode = 101;  
 stud.studName = "Joe Root";  
 let getInfo = stud.info(12,"maths", '100l');

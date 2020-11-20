@@ -17,7 +17,7 @@ class Student {
     }  
 }  
   
-let stud = new Student();  
+let stud = new Students();  
 stud.fullName:string = "Virat Kohli";  
 if (stud.fullName) {  
     console.log(stud.fullName);  
